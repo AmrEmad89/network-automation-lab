@@ -1,0 +1,9 @@
+# Network Troubleshooting Script
+
+This is a simple Bash script that helps you choose a troubleshooting method (`ping` or `trace`) and checks if a file exists on your system.
+
+## How to use
+
+1. Run the script:
+   ```bash
+   source run_ts.sh
