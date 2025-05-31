@@ -5,15 +5,14 @@ while true;do
 echo "What type of troubleshoot you need (ping|trace):"
 read method
 if [ "$method" = "ping" ] || [ "$method" = "trace" ] ;then
-	echo "you method is $method "
+	echo "your method is $method "
 	break
 else
-	echo "you have not selected valid method"
+	echo "you have not selected a valid method"
 fi 
 done
 
-#echo "Select the file name you need to open full path:"
-#read filename
+# loop until the user enter the correct file name or quit after three attempts 
 
 attempt=1
 maxattempt=3
